@@ -71,10 +71,10 @@ img {
 .clear {
   clear: both;
 }
-@media  screen and (min-width: 421px) {
+@media  screen and (max-width: 768px) {
   .container {
-     background-color: rgba(255, 192, 203, 0.548);
      display: inline-block;
+     background-color: pink;
    }
   .row {
     display: flex;
@@ -86,7 +86,7 @@ img {
     left: 41%; 
   }
   #why {
-    background-color: rgba(255, 192, 203, 0.548);
+    background-color: pink;
   }
 }
 @media  screen and (max-width: 420px) {
