@@ -71,6 +71,24 @@ img {
 .clear {
   clear: both;
 }
+@media  screen and (min-width: 421px) {
+  .container {
+     background-color: rgba(255, 192, 203, 0.548);
+     display: inline-block;
+   }
+  .row {
+    display: flex;
+    position: relative;
+  }
+  h1 {
+    position: absolute;
+    top: -87px;
+    left: 41%; 
+  }
+  #why {
+    background-color: rgba(255, 192, 203, 0.548);
+  }
+}
 @media  screen and (max-width: 420px) {
   .container{
     background-color: rgba(242, 242, 205, 1);
@@ -90,6 +108,4 @@ img {
   h1 {
     font-size: 45px;
   }
-
 }
- 
